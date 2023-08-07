@@ -1,0 +1,10 @@
+---
+# defaults file for samba
+
+build__samba_version: "4.17.0"
+build__samba_src_file: "samba_{{ build__samba_version}}+dfsg.orig.tar.xz"
+build__samba_deb_file: "samba_{{ build__samba_version }}+dfsg-2.debian.tar.xz"
+build__samba_sig_file: "samba_4.17.0+dfsg-2.dsc"
+build__samba_src_url: "http://deb.debian.org/debian/pool/main/s/samba/{{ build__samba_src_file }}"
+build__samba_deb_url: "http://deb.debian.org/debian/pool/main/s/samba/{{ build__samba_deb_file }}"
+build__samba_sig_url: "http://deb.debian.org/debian/pool/main/s/samba/{{ build__samba_sig_file }}"
